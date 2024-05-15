@@ -1,4 +1,3 @@
-Set-ExecutionPolicy Unrestricted -Scope CurrentUser -Force
 Install-Module -Name Az.* -Scope CurrentUser -Force
 Get-InstalledModule -Name Az.ResourceGraph
  
