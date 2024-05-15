@@ -12,7 +12,7 @@ pool:
 steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
-- task: PowerShell@2
+- task: AzurePowerShell@5
   inputs:
     filePath: '$(build.sourcesDirectory)/script.ps1'
 - script: |
