@@ -1,7 +1,6 @@
 Set-ExecutionPolicy Unrestricted -Scope CurrentUser -Force
-Update-Module Az.*  
-Install-Module -Name Az.ResourceGraph -Repository PSGallery -Scope CurrentUser -Force
-Import-Module -Name Az.ResourceGraph 
+Install-Module -Name Az.* -Scope CurrentUser -Force
+Get-InstalledModule -Name Az.ResourceGraph
  
 $subscriptions = Get-AzSubscription 
  
