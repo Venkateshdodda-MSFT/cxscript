@@ -1,3 +1,5 @@
+connect-azaccount -UseDeviceAuthentication
+Install-Module PowerShellGet -AllowClobber -Force
 Install-Module -Name Az -Scope CurrentUser -Force
 Get-InstalledModule -Name Az.ResourceGraph
  
