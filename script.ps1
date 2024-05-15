@@ -1,4 +1,4 @@
-Install-Module -Name Az.* -Scope CurrentUser -Force
+Install-Module -Name Az -Scope CurrentUser -Force
 Get-InstalledModule -Name Az.ResourceGraph
  
 $subscriptions = Get-AzSubscription 
